@@ -1,0 +1,28 @@
+#add common aliases
+. ~/.aliases
+
+# environment variables
+#export CATALINA="
+#export CATALINA_BASE="$CATALINA"
+#export CATALINA_HOME="$CATALINA"
+#export CATALINA_TMPDIR="$CATALINA/temp"
+
+export JPDA_ADDRESS="8000"
+export JPDA_TRANSPORT="dt_socket"
+export CURRENT_PROFILE="jsp"
+
+
+# exclusive jsf alias
+alias start-server="$CATALINA/bin/catalina.sh jpda start"
+alias stop-server="$CATALINA/bin/catalina.sh stop"
+alias tailf-server="tail -f $CATALINA/logs/catalina.out"
+
+alias goto-server="cd $CATALINA_HOME"
+alias open-server="open $CATALINA_HOME"
+
+alias build-dev="mvn -Pdev clean install -Dmaven.test.skip"
+
+alias build-deploy="mvn clean package && scp target/*.war $CATALINA/webapps/"
+
+#set color and text
+PS1='\n\[\033[1;33m\][JSP] \w\[\033[0;37m\]\n $ '

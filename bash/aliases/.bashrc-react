@@ -1,0 +1,24 @@
+#add common aliases
+. ~/.aliases
+
+# environment variables
+export CURRENT_PROFILE="react"
+
+# exclusive jsf alias
+
+alias sayHi="echo im react"
+alias start-server="./mvnw spring-boot:run -Dspring-boot.run.profiles=dev & start-frontend"
+alias build-prod="./mvnw -Pprod clean package -Dmaven.test.skip -Dspring-boot.run.profile=prod"
+alias build-hom="./mvnw -Pprod clean package -Dmaven.test.skip -Dspring-boot.run.profile=hom"
+
+#new tab
+#function start-frontend(){
+#    osascript -e 'tell application "Terminal" to activate'
+#    osascript -e 'tell application "System Events" to tell process "Terminal" to keystroke "t" using command down'
+#    osascript -e 'tell application "Terminal" to do script "bashrc react" in selected tab of the front window'
+#    osascript -e 'tell application "Terminal" to do script "cd *frontend/ && yarn start" in selected tab of the front window'
+#    echo "command is $1"
+#}
+
+#set color and text
+PS1='\n\[\033[1;36m\][REACT] \w\[\033[0;37m\]\n $ '

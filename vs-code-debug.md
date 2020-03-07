@@ -1,0 +1,18 @@
+## VS Code Debug Jest
+
+```js
+{
+  "name": "Debug Jest Tests",
+  "type": "node",
+  "request": "launch",
+  "runtimeArgs": [
+    "--inspect-brk",
+    "${workspaceRoot}/node_modules/.bin/jest",
+    "--runInBand",
+    "--watch"
+  ],
+  "console": "integratedTerminal",
+  "internalConsoleOptions": "neverOpen",
+  "port": 9229
+}
+```

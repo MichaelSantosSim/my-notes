@@ -1,0 +1,12 @@
+{
+  "name": "faker",
+  "version": "1.0.0",
+  "description": "Faker data mocker",
+  "main": "faker.js",
+  "author": "Michael Sim",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}

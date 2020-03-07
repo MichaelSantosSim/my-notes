@@ -1,0 +1,12 @@
+{
+  "name": "removeAccentsShortcutCommand",
+  "version": "1.0.0",
+  "description": "Remove Accents Shortcut Command",
+  "main": "index.js",
+  "author": "Michael Sim",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "remove-accents": "^0.4.2"
+  }
+}

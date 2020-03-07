@@ -1,0 +1,26 @@
+. ~/.aliases
+# exclusive jsf alias
+
+# environment variables
+export CURRENT_PROFILE="react native"
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+alias assembleRelease='./android/gradlew assembleRelease -p android/'
+alias bundle-android='react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/assets'
+alias check-ports='lsof -nP +c 15 | grep LISTEN'
+alias clean='./android/gradlew clean -p android/'
+alias contextMenu='adb shell input keyevent 82'
+alias copyApk='scp android/app/build/outputs/apk/release/app-release.apk ~/deployments/apks'
+alias edit-bash_jsf='sublime ~/.bashrc-jsf'
+alias edit-bash_jsp='sublime ~/.bashrc-jsp'
+alias edit-bash_profile='sublime ~/.bash_profile'
+alias edit-bash_react='sublime ~/.bashrc-react'
+alias notes='clear && cat ~/Documents/notes.txt && read -p '\'''\'' && clear'
+alias profile-display='ls -a ~ | grep '\''.profile-'\'''
+alias reverse-tcp='adb reverse tcp:8081 tcp:8081'
+alias sayHi='echo im react native'
+alias sublime='open -a Sublime\ Text'
+alias top-commands='history | awk "{print $2}" | awk "{print $1}" |sort|uniq -c | sort -rn | head -10'
+
+#set color and text
+PS1='\n\[\033[1;34m\][REACT NATIVE] \w\[\033[0;37m\]\n $ '

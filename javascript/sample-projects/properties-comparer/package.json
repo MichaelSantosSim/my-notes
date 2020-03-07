@@ -1,0 +1,9 @@
+{
+  "name": "properties-comparer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "properties-reader": "^1.0.0"
+  }
+}

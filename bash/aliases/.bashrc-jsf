@@ -1,0 +1,18 @@
+#add common aliases
+. ~/.aliases
+
+#environment variables
+export CURRENT_PROFILE="jsf"
+
+#export JBOSS_HOME=
+#export JRE_HOME=
+#export JAVA_HOME=
+
+alias start-server="sudo docker run -p 8080:8080 -p 9990:9990 -it jboss/wildfly /opt/jboss/wildfly/bin/standalone.sh -bmanagement 0.0.0.0 --debug"
+
+alias goto-server="cd $JBOSS_HOME"
+alias open-server="open $JBOSS_HOME"
+
+
+#set color and text
+PS1='\n\[\033[1;31m\][JSF] \w\[\033[0;37m\]\n $ '
