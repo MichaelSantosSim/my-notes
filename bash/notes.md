@@ -6,6 +6,11 @@ Notes about terminal commands
 [Changing proxies for multiple tools](https://www.jhipster.tech/configuring-a-corporate-proxy/)
 
 
+## force alt+tab for current workspace only
+
+```bash
+gsettings set org.gnome.shell.app-switcher current-workspace-only true
+```
 
 ## generating sequences
 
