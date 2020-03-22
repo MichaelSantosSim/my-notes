@@ -12,6 +12,12 @@ Notes about terminal commands
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
 ```
 
+## same workspace for all monitors
+
+```bash
+gsettings set org.gnome.mutter workspaces-only-on-primary false
+```
+
 ## generating sequences
 
 ```bash
