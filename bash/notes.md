@@ -5,6 +5,12 @@ Notes about terminal commands
 ## changing proxies
 [Changing proxies for multiple tools](https://www.jhipster.tech/configuring-a-corporate-proxy/)
 
+## tail process output on ubuntu
+```bash
+tail -f /proc/${procId}/fd/0 #INPUT
+tail -f /proc/${procId}/fd/1 #OUTPUT
+```
+
 
 ## force alt+tab for current workspace only
 
