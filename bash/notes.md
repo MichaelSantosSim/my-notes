@@ -1,6 +1,8 @@
 # Terminal notes
 Notes about terminal commands
 
+## Map wacom tablet to one monitor
+[Askubuntu - How to map wacom correctly to monitor](https://askubuntu.com/questions/270156/how-to-map-wacom-correctly-to-monitor)
 
 ## changing proxies
 [Changing proxies for multiple tools](https://www.jhipster.tech/configuring-a-corporate-proxy/)
