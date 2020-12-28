@@ -1,0 +1,14 @@
+{
+  "name": "yuptest",
+  "version": "1.0.0",
+  "description": "yup test",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yup": "^0.32.8"
+  }
+}
