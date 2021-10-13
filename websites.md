@@ -11,3 +11,5 @@
 * [Cheatography](https://cheatography.com/programming/) (Programming help sheets)
 * [Online hex editor](https://hexed.it/)
 * [Bootstrap theme editor](https://pikock.github.io/bootstrap-magic/app/index.html#!/editor)
+* [diagrams.net](https://app.diagrams.net/)(Online diagram editor)
+* [Chrome console utilities](https://developer.chrome.com/docs/devtools/console/utilities/)
