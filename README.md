@@ -14,3 +14,5 @@ Some tips and tricks about programming and stuff
 [Docker](https://github.com/MichaelSantosSim/my-notes/blob/master/docker.md)
 
 [Spring](https://github.com/MichaelSantosSim/my-notes/blob/master/spring.md)
+
+[Helpful websites](https://github.com/MichaelSantosSim/my-notes/blob/master/websites.md)
