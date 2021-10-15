@@ -13,3 +13,5 @@
 * [Bootstrap theme editor](https://pikock.github.io/bootstrap-magic/app/index.html#!/editor)
 * [diagrams.net](https://app.diagrams.net/)(Online diagram editor)
 * [Chrome console utilities](https://developer.chrome.com/docs/devtools/console/utilities/)
+* [One Time Secret](https://onetimesecret.com/)
+* [PasteBin](https://pastebin.com/)
